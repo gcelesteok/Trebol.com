@@ -1,3 +1,4 @@
+/*
 var check=document.querySelector(".check")
 check.addEventListener('click',idioma)
 
@@ -9,3 +10,4 @@ function idioma(){
         location.href="../index.html";
     }
 }
+*/

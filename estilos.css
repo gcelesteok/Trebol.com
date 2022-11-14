@@ -304,6 +304,17 @@ iframe{
         flex-flow: row-reverse  wrap-reverse;
         
     }
+
+    #logop img{
+        width: 70% !important;
+    }
+    
+    #logop{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
  
     .contenedor-servicio img{
         width: 80%;
@@ -403,6 +414,17 @@ iframe{
         margin-bottom: 2em;
     }
 
+    #logop img{
+        width: 60% !important;
+    }
+    
+    #logop{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
+ 
    
 }
 
@@ -412,7 +434,16 @@ iframe{
         max-width: 50% !important;
     }
 
-  
+    #logop img{
+        width: 50% !important;
+    }
+    
+    #logop{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
 
     .titulo{
         font-size: 30px;
