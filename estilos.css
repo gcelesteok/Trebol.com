@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contenedor{
@@ -62,6 +62,9 @@ body{
    
 }
 
+.dropdown-item{
+    color: #4f4f4f !important;
+}
 
 .hamburguer{
     overflow-x:hidden;
@@ -132,6 +135,12 @@ body{
 .checklist-servicio{
     width: 45%;
 }
+
+.service>p{
+    font-weight: 500;
+    
+}
+
 /* menu3 */
 
 .about-us {
@@ -167,6 +176,31 @@ body{
     height: 70px;
     text-align: center;
     padding-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+#idea{
+    font-size: 40px;
+    color: #fff;
+    background: #1e9817;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+
+#idea1{
+    font-size: 45px;
+    color: #fff;
+    background: #1e9817;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
     border-radius: 50%;
     box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
 }
@@ -219,7 +253,7 @@ body{
 
 .card-right {
     display: flex;
-    height: 300px;
+    min-height: 300px;
     margin-right: 20%;
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 90.62%);
@@ -229,11 +263,12 @@ body{
 .card-left {
     display: flex;
     flex-direction: row-reverse;
-    height: 300px;
+    min-height: 300px;
     margin-left: 20%;
     border-radius: 10px;
     background: linear-gradient(260deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 90.62%);
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
+  
 }
 
 .card-rigth__child {
@@ -242,6 +277,9 @@ body{
     margin-left: 11%;
     justify-content: space-between;
     align-items: center;
+    height: auto;
+    
+   
 }
 
 .card-left__child {
@@ -251,11 +289,17 @@ body{
     margin-right: 11%;
     justify-content: space-between;
     align-items: center;
+    height: auto;
+    
 }
 
 .card__info {
+    
     width: 50%;
     padding: 2em;
+    height: auto;
+    
+    
 }
 
 
@@ -265,6 +309,7 @@ body{
     padding-top: 60px;
 
 }
+
 
 /* Menu 5*/
 
@@ -292,7 +337,9 @@ iframe{
 
 
 /*RESPONSIVE*/
-@media screen and (max-width: 870px){
+
+
+@media screen and (max-width: 950px){
     .offcanvas{
         max-width: 60% !important;
     }
@@ -343,6 +390,7 @@ iframe{
      
     .card__info{
         padding: 1em;
+       
     }
 
     .subindex{
@@ -386,7 +434,7 @@ iframe{
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 850px){
     .card-right, .card-left{
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
